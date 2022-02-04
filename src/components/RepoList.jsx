@@ -11,7 +11,7 @@ export function RepoList() {
     async function getContent() {
       try {
         const response = await fetch(
-          "https://api.github.com/orgs/rocketseat/repos"
+          "https://api.github.com/users/leanderson01/repos"
         );
         const data = await response.json();
         setRepositories(data);
@@ -28,7 +28,7 @@ export function RepoList() {
         <h1>
           Lista de{" "}
           <span>
-            <a href="https://github.com/orgs/rocketseat/">Repositórios</a>
+            <a href="https://github.com/Leanderson01/">Repositórios</a>
           </span>
         </h1>
         <hr className="hr" />
