@@ -1,0 +1,47 @@
+main{
+  display: grid;
+  gap: 1rem;
+}
+
+nav{
+  h1{
+    margin: 1rem;
+  }
+  
+  a{
+    color: #8257e6;
+    text-decoration: none;
+  }
+
+  span{
+    color: #8257e6;
+  }
+
+  hr{
+    border-color: #333;
+  }
+}
+section{
+  display: grid;
+
+  ul{
+    display: grid;
+    gap: 2rem;
+    margin-left: 4rem;
+    list-style-type: none;
+  }
+
+  p{
+    font-size: 0.9rem;
+    color: #999;
+    margin-top: 0.5rem;
+  }
+
+
+  a{
+    display: inline-block;
+    margin-top: 1rem;
+    text-decoration: none;
+    color: #8257e6;
+  }
+}
