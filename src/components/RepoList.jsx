@@ -28,7 +28,9 @@ export function RepoList() {
         <h1>
           Lista de{" "}
           <span>
-            <a href="https://github.com/Leanderson01/">Repositórios</a>
+            <a href="https://github.com/Leanderson01/" target="_blank">
+              Repositórios
+            </a>
           </span>
         </h1>
         <hr className="hr" />
