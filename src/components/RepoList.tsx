@@ -1,11 +1,17 @@
 import { useState, useEffect } from "react";
 import { RepoItem } from "./RepoItem";
-import regeneratorRuntime from "regenerator-runtime";
 
 import "../styles/repo.scss";
 
+interface Repo {
+  id: string;
+  name: string;
+  description: string;
+  html_url: string;
+}
+
 export function RepoList() {
-  const [repositories, setRepositories] = useState([]);
+  const [repositories, setRepositories] = useState<Repo[]>([]);
 
   useEffect(() => {
     async function getContent() {
